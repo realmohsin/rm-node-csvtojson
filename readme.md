@@ -2,11 +2,11 @@
 
 This project is a command line tool that converts CSV into a JSON file.
 
-## To start
+## To Start
 
 ```
 $ git clone https://github.com/realmohsin/rm-node-csvtojson
-$ npm run rm PATH
+$ npm start PATH
 ```
 
 ## Procedure

@@ -1,0 +1,11 @@
+{
+  "name": "rm-node-csvtojson",
+  "version": "1.0.0",
+  "description": "CSV to JSON File Conversion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Real Mohsin",
+  "license": "ISC"
+}

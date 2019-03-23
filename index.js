@@ -27,7 +27,7 @@ fs.readFile(customerDataPath, 'utf8', (err, data) => {
 
   const jsonMainArrOfUsers = JSON.stringify(mainArrOfUsers, null, 2)
 
-  fs.writeFile('./customer-data.json', jsonMainArrOfUsers, err => {
+  fs.writeFile('./converted.json', jsonMainArrOfUsers, err => {
     if (err) console.log(err)
     console.log('JSON File Saved')
   })
